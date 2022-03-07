@@ -1,0 +1,4 @@
+---- PWR_LOWPOWERMODE_SHUTDOWN Matches (3 in 3 files) ----
+PowerManagement.h (d:\yw687\democode\a4v30\usrapp\inc):#define PWR_LOWPOWERMODE_SHUTDOWN           (PWR_CR1_LPMS_2)                    /*!< Shutdown mode */
+Stm32g0xx_hal_pwr.h (d:\yw687\democode\a4v30\drivers\stm32g0xx_hal_driver\inc):#define PWR_LOWPOWERMODE_SHUTDOWN           (PWR_CR1_LPMS_2)                    /*!< Shutdown mode */
+Stm32g0xx_hal_pwr_ex.c (d:\yw687\democode\a4v30\drivers\stm32g0xx_hal_driver\src):  MODIFY_REG(PWR->CR1, PWR_CR1_LPMS, PWR_LOWPOWERMODE_SHUTDOWN);

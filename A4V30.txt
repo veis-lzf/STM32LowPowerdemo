@@ -1,0 +1,80 @@
+Configuration	A4V30
+STM32CubeMX 	6.1.2
+Date	03/06/2022
+MCU	STM32G0B1RCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN (PF0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT (PF1)
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PC11	GPIO_EXTI11	AIN1
+10	PF0-OSC_IN (PF0)	RCC_OSC_IN	
+11	PF1-OSC_OUT (PF1)	RCC_OSC_OUT	
+15	PC2	GPIO_EXTI2	CAN2_RX
+37	PA9	USART1_TX	
+39	PC7	GPIO_Output	GSM_POW
+42	PA10	USART1_RX	
+50	PD0	GPIO_Output	WIFI_LED_SW
+51	PD1	GPIO_Output	GPS_LED_SW
+52	PD2	GPIO_Output	GPRS_LED_SW
+53	PD3	GPIO_Output	CAN_LED_SW
+64	PC10	GPIO_EXTI10	AIN2
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN (PF0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT (PF1)
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PC11	GPIO_EXTI11	AIN1
+10	PF0-OSC_IN (PF0)	RCC_OSC_IN	
+11	PF1-OSC_OUT (PF1)	RCC_OSC_OUT	
+15	PC2	GPIO_EXTI2	CAN2_RX
+37	PA9	USART1_TX	
+39	PC7	GPIO_Output	GSM_POW
+42	PA10	USART1_RX	
+50	PD0	GPIO_Output	WIFI_LED_SW
+51	PD1	GPIO_Output	GPS_LED_SW
+52	PD2	GPIO_Output	GPRS_LED_SW
+53	PD3	GPIO_Output	CAN_LED_SW
+64	PC10	GPIO_EXTI10	AIN2
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : A4V30
+Project Folder : D:\YW687\DemoCode\A4V30
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_G0 V1.4.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
